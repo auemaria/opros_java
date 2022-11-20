@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="test">
+        <item>Что чувствует нарцисс?</item>
+        <item>Тревожность</item>
+        <item>Апатию</item>
+        <item>Депрессивное состояние</item>
+        <item>Неуверенность в себе +</item>
+        <item>Что такое параллельные трансанкции?</item>
+        <item>В-В</item>
+        <item>В-Р Р-В +</item>
+        <item>Р-Р</item>
+        <item>Нету правильного ответа</item>
+        <item>Welche Ubersetzung hat das wort "Unterstutzung"?</item>
+        <item>Поддержка +</item>
+        <item>Переводж</item>
+        <item>Понимание</item>
+        <item>Осознание</item>
+
+    </string-array>
+</resources>
