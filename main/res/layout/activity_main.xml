@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Вопрос №"
+        android:gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textSize="24sp"
+        android:id="@+id/num_quest"
+        android:textColor="#AD1457"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="В чём смысл жизни?"
+        android:gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:id="@+id/text_quest"
+        android:textSize="18sp"
+        android:textColor="#283593"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:id="@+id/var_answers"
+        android:layout_height="wrap_content" >
+        <RadioButton
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:textSize="24sp"
+            android:layout_margin="10dp"
+            android:gravity="left"
+            android:text="Мемы"/>
+        <RadioButton
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:textSize="24sp"
+            android:layout_margin="10dp"
+            android:gravity="left"
+            android:text="Мемы"/>
+        <RadioButton
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:textSize="24sp"
+            android:layout_margin="10dp"
+            android:gravity="left"
+            android:text="Мемы"/>
+        <RadioButton
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:textSize="24sp"
+            android:layout_margin="10dp"
+            android:gravity="left"
+            android:text="Мемы"/>
+    </RadioGroup>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:text="Ответить"
+            android:onClick="sendAnswer"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="1/n"
+            android:layout_margin="10dp"
+            android:gravity="center_vertical"
+            android:id="@+id/progress_test"
+            />
+
+    </LinearLayout>
+</LinearLayout>
